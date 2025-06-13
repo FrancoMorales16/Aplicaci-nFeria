@@ -47,7 +47,7 @@ class HomeFragment : Fragment() {
         }
         binding.buttonCard4.setOnClickListener {
             val bundle = Bundle()
-            bundle.putString("imageUrl", "https://th.bing.com/th/id/OIP.ZstpiZKyv5LNaDOUhfJHbgHaLh?rs=1&pid=ImgDetMain")
+            bundle.putString("imageUrl", "https://www.feriasmexico.com.mx/wp-content/uploads/2025/02/calendari-abril-feria-tabasco-2025-768x960.jpeg")
             findNavController().navigate(R.id.imageFragment, bundle)
         }
 
